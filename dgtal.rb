@@ -4,9 +4,9 @@ class Dgtal < Formula
   revision 1
 
   stable do
-    url "http://dgtal.org/releases/DGtal-0.9.2-Source.tar.gz"
-    mirror "http://liris.cnrs.fr/dgtal/releases/DGtal-0.9.2-Source.tar.gz"
-    sha256 "ba044b7c353a8550dc740c1d80e3caf59a76d4332d956599359027f3e8e20ed9"
+    url "http://dgtal.org/releases/DGtal-0.9.3-Source.tar.gz"
+    mirror "http://liris.cnrs.fr/dgtal/releases/DGtal-0.9.3-Source.tar.gz"
+    sha256 "6ade39b5bf12b8da9b26df340830136d423fc4558b51ae5608cdac40e0fc1744"
 
     option "with-eigen@3.2", "Build with eigen support"
     deprecated_option "with-eigen" => "with-eigen@3.2"
